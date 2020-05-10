@@ -6,7 +6,7 @@ import re
 
 from django.db import models
 from django.template.defaultfilters import slugify
-from django.utils.encoding import python_2_unicode_compatible
+from six import python_2_unicode_compatible
 from django.utils.translation import ugettext_lazy as _
 
 from cms.models import CMSPlugin
